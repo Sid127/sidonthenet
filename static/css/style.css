@@ -1,7 +1,8 @@
 :root,
+
 :root.dark {
-  --bgColor: #fcfcfc;
-  --fgColor: #5c6166;
+  --bgColor: #0D1017;
+  --fgColor: #bfbdb6;
   --metaColor: #6c5980;
   --headColor: #;
   --linkColor: #ffb454;
@@ -24,15 +25,15 @@
   --dimGrey: #6c738099;
 }
 
-:root.dark {
-  --bgColor: #0D1017;
-  --fgColor: #bfbdb6;
+:root.light {
+  --bgColor: #fcfcfc;
+  --fgColor: #5c6166;
   --metaColor: #6c5980;
   --headColor: #;
   --linkColor: #ffb454;
   --hovColor: #ff8f40;
   --bgSelect: #acb6bf8c;
-  --bgUrl: url(https://i.ibb.co/LzrFBFJ/tileDark.webp) repeat;
+  --bgUrl: url(https://i.ibb.co/LzrFBFJ/tileLight.webp) repeat;
   --red: #f07178;
   --dimRed: #f26d78;
   --orange: #e6b673;
@@ -80,8 +81,8 @@ body {
 
 @media only screen and (max-width: 1081px) {
   body {
+    font-size: 1.2rem;
     max-width: 95%;
-    margin: 3.2rem;
   }
 }
 
@@ -286,6 +287,7 @@ textarea {
   border: none;
   font-size: 1.8rem;
   background-color: transparent;
+  margin-left: auto;
 }
 
 .dark .themeButton.dark,

@@ -6,7 +6,6 @@ const setTheme = (theme) => {
 const hasCodeRun = localStorage.getItem('hasCodeRun');
 
 if (!hasCodeRun) {
-  const defaultTheme = "{{ config.extra.default_theme }}";
   setTheme(defaultTheme);
   localStorage.setItem('hasCodeRun', 'true');
 }

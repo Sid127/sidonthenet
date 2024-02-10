@@ -2,6 +2,7 @@
 <html lang="{% if page %}{{ page.lang }}{% else %}{{ config.default_language }}{% endif %}">
 <head>
     {% include "head.html" %}
+    <script>const defaultTheme = "{{ config.extra.default_theme }}";</script>
 </head>
 <body>
     <div class="wrapper">
