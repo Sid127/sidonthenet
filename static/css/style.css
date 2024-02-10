@@ -1,52 +1,52 @@
 :root,
-:root.light {
-  --bgColor: #EEEEEE;
-  --fgColor: #41474E;
-  --metaColor: #D26878;
+:root.dark {
+  --bgColor: #fcfcfc;
+  --fgColor: #5c6166;
+  --metaColor: #6c5980;
   --headColor: #;
-  --linkColor: #5690AF;
-  --hovColor: #22453F;
-  --bgSelect: #FFFAE1;
-  --bgUrl: url(https://i.ibb.co/Qpkrw4V/tile-Light.webp) repeat;
-  --red: #D26878;
-  --dimRed: #623039;
-  --orange: #e08f67;
-  --dimOrange: #926048;
-  --yellow: #FFFAE1;
-  --dimYellow: #D5C5A1;
-  --green: #56AFA0;
-  --dimGreen: #22453F;
-  --blue: #5690AF;
-  --dimBlue: #223844;
-  --purple: #9271D6;
-  --dimPurple: #47356C;
-  --grey: #CBCDCD;
-  --dimGrey: #646868
+  --linkColor: #ffb454;
+  --hovColor: #ff8f40;
+  --bgSelect: #acb6bf8c;
+  --bgUrl: url(https://i.ibb.co/LzrFBFJ/tileDark.webp) repeat;
+  --red: #f07178;
+  --dimRed: #f26d78;
+  --orange: #e6b673;
+  --dimOrange: #f29668;
+  --yellow: #ffb454;
+  --dimYellow: #e6b673;
+  --green: #aad94c;
+  --dimGreen: #7fd962;
+  --blue: #39bae6;
+  --dimBlue: #59c2ff;
+  --purple: #d2a6ff;
+  --dimPurple: #6c5980;
+  --grey: #6c7380e6;
+  --dimGrey: #6c738099;
 }
 
 :root.dark {
-  --bgColor: #222529;
-  --fgColor: #D6D6D6;
-  --metaColor: #78B6AD;
+  --bgColor: #0D1017;
+  --fgColor: #bfbdb6;
+  --metaColor: #6c5980;
   --headColor: #;
-  --linkColor: #DBD5BC;
-  --hovColor: #E2AEA2;
-  --bgSelect: #464949;
+  --linkColor: #ffb454;
+  --hovColor: #ff8f40;
+  --bgSelect: #acb6bf8c;
   --bgUrl: url(https://i.ibb.co/LzrFBFJ/tileDark.webp) repeat;
-  --red: #CD909B;
-  --dimRed: #684249;
-  --orange: #E2AEA2;
-  --dimOrange: #704941;
-  --yellow: #DBD5BC;
-  --dimYellow: #6F6847;
-  --green: #78B6AD;
-  --dimGreen: #3E615C;
-  --blue: #87C9E5;
-  --dimBlue: #38494F;
-  --purple: #CEA7DE;
-  --dimPurple: #5E406A;
-  --grey: #CBCDCD;
-  --dimGrey: #464949
+  --red: #f07178;
+  --dimRed: #f26d78;
+  --orange: #e6b673;
+  --dimOrange: #f29668;
+  --yellow: #ffb454;
+  --dimYellow: #e6b673;
+  --green: #aad94c;
+  --dimGreen: #7fd962;
+  --blue: #39bae6;
+  --dimBlue: #59c2ff;
+  --purple: #d2a6ff;
+  --dimPurple: #6c5980;
+  --grey: #6c7380e6;
+  --dimGrey: #6c738099;
 }
 
 ::-moz-selection {
@@ -71,11 +71,18 @@ body {
   font-family: monospace;
   font-size: 1.6rem;
   line-height: 1.35;
-  max-width: 64rem;
+  max-width: 108rem;
   margin: auto;
   overflow-wrap: break-word;
   background: var(--bgColor);
   color: var(--fgColor);
+}
+
+@media only screen and (max-width: 1081px) {
+  body {
+    max-width: 95%;
+    margin: 3.2rem;
+  }
 }
 
 h1 {
@@ -84,6 +91,7 @@ h1 {
   background-color: var(--metaColor);
   text-align: center;
   text-wrap: balance;
+  margin-top:0px
 }
 
 h1::before {
@@ -265,18 +273,19 @@ textarea {
   padding: 1rem 0 0 0;
   display: flex;
   flex-direction: row;
-  gap: .4rem;
+  gap: 0rem;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  align-content: flex-end
+  align-content: center;
+  width:100%;
 }
 
 .themeButton {
   cursor: pointer;
   border: none;
   font-size: 1.8rem;
-  background-color: transparent
+  background-color: transparent;
 }
 
 .dark .themeButton.dark,

@@ -1,48 +1,19 @@
 +++
+title = "Sid on the Net"
 +++
 
-## Overview
+# Hi, it's Sid!
 
-anemone theme is designed to provide a nearly no-JavaScript, efficient, and minimalist experience for your website. Embracing simplicity, the theme focuses on content and readability, ensuring a seamless user experience without unnecessary distractions.
+## Henlo welcome to my corner of the internet
+I'm just a silly bean trying to dump her thoughts and share her adventures, and I'm glad you are curious enough (or maybe love me enough?) to come check out what I'm up to :>
 
-> *"Useless blockquote"*
+## Why does this exist?
+I bought this domain both because I didn't like the one I had before this, and partly as a joke.
+Over time this stupid domain name grew on me, because I ended up enjoying the silly things I could do with it.
 
-## Blog Posts
+I often embark on stupid adventures, both with tech and in real life, and I wanted a way to share them with the world without blowing up my friends' DMs one person at a time. Plus here I don't have the guilt of potentially bothering anyone with my silly stories.
 
-Explore our insightful blog posts on a variety of topics:
+Also a really special girl encouraged (~~read: forced /j~~) me to finally get this set up since I'd been putting it off for months, and we ended up setting up our respective sites together! You should totally [check hers out too](https://pwall.me) :>
 
-- 🥣 [Overview Post](./blog/overview-post)
-- 🥣 [Overview Post But in French](./fr/blog/overview-post)
-- 🈚 [Language Tests](./blog/language-tests)
-- 🔥 [Very Very Very Long Title And Very Very Very Short Content](./blog/very-very-very-long-title-and-very-very-very-short-content)
-- 📺 [Post Example With Headings And TOC](./blog/post-example-with-headings-and-toc)
-
-## Tags
-
-Browse our posts by tags:
-
-- [example](./tags/example)
-
-## Another List
-
-Discover additional content:
-
-- With Subitems
-  - With Subsubitems
-  - [Example Page](./about)
-- this list is just the content of `content/_index.md`, the tests are shamelessly stolen from [no style, please!](https://www.getzola.org/themes/no-style-please/)
-
-## Online Presence
-
-Stay connected with us:
-
-- Email: [jgll6dij6@mozmail.com](mailto:jgll6dij6@mozmail.com)
-- Code Repositories: [Speyll@GitHub](https://github.com/Speyll)
-- @Speyll anywhere else.
-
-## Webrings
-
-Join our webrings and explore more:
-
-- 🈯 {{ webring(prev="#", webring="#", webringName="Random Webring", next="#") }}
-- 🎶 {{ webring(prev="#", webring="#", webringName="Another Webring", next="#") }}
+## Wanna know more?
+You could head to my ["About Me"](./about) page, ~~or maybe read up some of my [blog posts](./blog)~~?
