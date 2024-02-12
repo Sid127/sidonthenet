@@ -12,7 +12,7 @@ Funnily enough, despite my knowledge and "prowess" with computers, I'm a `physic
 My other interests/hobbies include, but are not limited to, 
 - `music`: I've been playing the cajón since the age of 14 and am learning the drums. I listen to most genres of music, but tend to lean towards metal, classic rock, and blues.
 - `rally`: the only motorsport I find fun to watch, and an interest I'd like to turn into a hobby
-- `video games`: retro shooters first and foremost, but also rally simulators, strategy games, and cozy games
+- `video games`: retro shooters first and foremost, but also rally simulators, strategy games, fighting games, and cozy games
 - `biking`
 - `cooking`
 - `travel`

@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+<p class="sr-only">Hello! If you hear a heading number skipped, your screen reader is not malfunctioning, it's just how I've written things to achieve a specific visual. I hope you can understand, thank you for visiting!</p>
 <div><a href="..">..</a>/<span class="metaData">{{ page.slug }}</span></div>
 <time datetime="{{ page.date }}">Published on: <span class="metaData">{{ page.date }}</span></time>
 {% if config.extra.author and config.extra.display_author == true %}
@@ -44,4 +45,5 @@
   {% endfor %}
   {% endif %}
 </p>
+<script type="text/javascript" src="{{ get_url(path='js/footnote.js', trailing_slash=false) | safe }}" async></script>
 {% endblock content %}

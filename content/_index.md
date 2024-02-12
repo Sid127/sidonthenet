@@ -14,4 +14,4 @@ Over time this stupid domain name grew on me, because I ended up enjoying the si
 I often embark on stupid adventures, both with tech and in real life, and I wanted a way to share them with the world without blowing up my friends' DMs one person at a time. Plus here I don't have the guilt of potentially bothering anyone with my silly stories.
 
 ## Wanna know more?
-You could head to my ["About Me"](./about) page, ~~or maybe read up some of my [blog posts](./blog)~~?
+You could head to my ["About Me"](./about) page, or maybe read up some of my [blog posts](./blog)?

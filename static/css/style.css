@@ -286,12 +286,15 @@ textarea {
   background-color: var(--dimPurple);
 }
 
+.themeSwitch {
+  margin-left: auto;
+}
+
 .themeButton {
   cursor: pointer;
   border: none;
   font-size: 1.8rem;
   background-color: transparent;
-  margin-left: auto;
 }
 
 .dark .themeButton.dark,
@@ -364,4 +367,15 @@ textarea {
   .wrapper {
     margin: 1rem;
   }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
