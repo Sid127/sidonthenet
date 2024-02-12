@@ -282,6 +282,10 @@ textarea {
   width:100%;
 }
 
+.active {
+  background-color: var(--dimPurple);
+}
+
 .themeButton {
   cursor: pointer;
   border: none;
