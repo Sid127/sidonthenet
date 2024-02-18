@@ -15,13 +15,13 @@ Good question. Resizable BAR, or ReBAR[^3] for short, is a PCIe feature that let
 
 Great then! all I had to do was head to my UEFI Firmware settings and enable it, right? Wrong.
 
-## Nvidia strikes again, but do not give up hope...
+### Nvidia strikes again, but do not give up hope...
 
 While ReBAR has been a PCIe feature since PCIe 2.0 Extended Configuration Space, but it was standardized and widely implemented only with PCIe Base Specification 4.0. This means ReBAR has been around since 2007! However, since it only became a standard with PCIe 4.0, Nvidia decided to be mean and only enable it in their vBIOS starting with the RTX 3000 series GPUs, which was disappointing to find out, but I knew vBIOS modding was a thing, so I got searching.
 
 While I found a lot of tools and resources on modding older NV GPUs, I learned that Nvidia had begun signing their vBIOSes with a special key, bringing an end to vBIOS modding. Okay, I thought, surely this is the end then. I can't do anything to enable vBIOS on my poor non-RTX Turing generation GPU.
 
-## BIOS Modding, our savior?
+### BIOS Modding, our savior?
 
 Turns out, I wasn't the first one who wanted features big corpos told me I couldn't have. I stumbled across a project on GitHub called [ReBarUEFI](https://github.com/xCuri0/ReBarUEFI), which is a UEFI DXE driver to enable ReBAR on systems that don't have "official" support. I went through the repositorty and its wiki, trying to understand how I could use it to my advantage and finally have the big BAR of my dreams. 
 
@@ -31,7 +31,7 @@ After a short romp through sketchy sites and forums, I came across a [reputable-
 
 Except it wasn't. My laptop booted and worked just fine, but the tool to modify the BAR size that accompanied the ReBarUEFI project just did nothing on my laptop. It was able to set the required UEFI variables, but my GPU still reported a BAR size of 256MB. Frustrated, I started asking on the repo's issue tracker if I'd done something wrong, and after some more testing, I realized that I *did* have ReBAR working, I was able to shrink it down, but I was limited to a max size of 256 MB. Meaning that pesky vBIOS toggle that Nvidia was not enabling on everything-but-the-latest[^4] GPUs was still the blocker. Surely this was the end for me, a laptop with a small BAR, not a large one I could serve all my friends and family off of.
 
-## The End..?
+### The End..?
 
 Out of sheer curiosity last month, to see if there was a change, I poked around my system regarding ReBAR again and noticed that my dmesg had a different output. Seeing this, I immediately head back to the issue tracker to ask for help, and was very kindly pointed to a new project called [NvStrapsReBar](https://github.com/terminatorul/NvStrapsReBar). It is a fork of ReBarUEFI with changes to the project that allow ReBAR to be enabled on *any* Nvidia gpu, vBIOS be damned. I won't get into detail here, you should read up on the project and how it was done, but the gist of it is that this new UEFI driver hardcoded[^5] the PCIe address of the GPU and overrides the BAR size that way. I happily re-modded my BIOS, flashed it, and ran into the same issue I had previously, my BAR size was limited to 256 MB. But it wasn't the driver's fault this time around, it turned out to simply be a udev rule I'd set that enabled PCIe power management on every device from the get go. One blacklisted PCI device later, my GPU reported a maximum BAR size of 8 GB, just like I'd configured it!
 

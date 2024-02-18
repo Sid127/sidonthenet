@@ -13,13 +13,14 @@ My other interests/hobbies include, but are not limited to,
 - `music`: I've been playing the cajón since the age of 14 and am learning the drums. I listen to most genres of music, but tend to lean towards metal, classic rock, and blues.
 - `rally`: the only motorsport I find fun to watch, and an interest I'd like to turn into a hobby
 - `video games`: retro shooters first and foremost, but also rally simulators, strategy games, fighting games, and cozy games
-- `biking`
-- `cooking`
-- `travel`
+- `biking`: born to bike, forced to walk/take the transit
+- `cooking`: I aspire to have a little kitchen garden and grow my own ingredients someday
+- `travel`: relatively new thing I've picked up, but seeing different cultures and just finding places to relax is fun
 - `making connections` with new people, despite not being very good at the whole socializing shtick
-- `obscure/quirky tech`
+- `obscure/quirky tech`: I think this is a bit self explanatory (:
 
 ## Oh you wanna reach me elsewhere?
-Well, you should be able to:
-- [Send me an Electronic Mail](mailto:sidpranjale127@protonmail.com)
+Well,
+- You could [mail@sidonthe.net](mailto:mail@sidonthe.net)
+- Or you could [@text:sidonthe.net](https://matrix.to/#/@text:sidonthe.net)
 - *to share or not to share, that is the question...*
