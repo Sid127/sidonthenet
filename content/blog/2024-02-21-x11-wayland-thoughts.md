@@ -12,7 +12,7 @@ For all of you confused: X11 and Wayland both provide the means to interact with
 
 X11 is old, *really* old. It's a product of MIT from 1984, and had its last major release nearly 12 years ago now. Being as old as it is, it's quite impressive how well it still holds up today. However, due to the age of the project, a lot of code in it is difficult to understand and change, and because developers wanted something more flexible than good ol' standardized X11, Wayland was born in 2008. 
 
-Wayland takes a different approach to display server and client communication. It is a communication protocol and a specification, meaning those wanting to create a "window manager" with wayland are free to implement its features however they see fit, as long as it follows said specification.
+Wayland takes a different approach to display server and client communication. I  t is a communication protocol and a specification, meaning those wanting to create a "window manager" with wayland are free to implement its features however they see fit, as long as it follows said specification.
 
 ### Not one, many Waylands
 
@@ -42,8 +42,13 @@ This post isn't meant to argue on which is better, X11 or Wayland. Both have the
 
 ---
 
-[^1] Linux based OSs are Unix-like, and only X11 is truly Unix compatible.
+[^1]: Linux based OSs are Unix-like, and only X11 is truly Unix compatible.
 
-[^2] They're both software responsible for holding a connection to any program wanting to display a window, that holds window state such as positions or maximized/minimized, that handles the routing of input to the right programs and that processes this information to produce the final input with all the windows composed in it that gets prevented to the screen.
+[^2]: They're both software responsible for holding a connection to any program wanting to display a window, that holds window state such as positions or maximized/minimized, that handles the routing of input to the right programs and that processes this information to produce the final input with all the windows composed in it that gets prevented to the screen.
 
-[^3] Mir is a special case. It started off as an alternative display server to X11 as well, but later implemented wayland.
+[^3]: Mir is a special case. It started off as an alternative display server to X11 as well, but later implemented wayland.
+
+
+### A correction
+
+Shortly after publishing this post, it was pointed out to me that libwayland no longer has a hard dependency on epoll, details of which can be found for [FreeBSD](https://gitlab.freedesktop.org/wayland/wayland/-/merge_requests/147), [OpenBSD](https://gitlab.freedesktop.org/wayland/wayland/-/merge_requests/256), and [NetBSD](https://gitlab.freedesktop.org/wayland/wayland/-/merge_requests/258). I'm not going to edit the original post contents, for posterity.
