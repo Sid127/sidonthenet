@@ -2,7 +2,7 @@
 title = "Rebar is a steel bar used as a tension device in rein..."
 description = "Sid's adventures with figuring out how to enable ReBAR on their laptop."
 [taxonomies]
-  tags = ["tech", "software"]
+  tags = ["tech", "software", "adventures"]
 +++
 Sorry, I thought that was funny. Over the past few months I've been upset about the hardware I have[^1], because if I could have waited a month more[^2]. I could've gotten the 2020 model with an RTX 2060 instead. But yes, I've been upset about missing out on all the cool kids features like hardware accelerated Ray Tracing, DLSS, all the AI shenanigans, and... Resizable BAR.
 
