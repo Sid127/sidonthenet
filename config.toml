@@ -1,4 +1,4 @@
-base_url = "https://sidonthe.net"
+base_url = "https://tetranode.net"
 description = "huh, an embed, I wonder where this site takes me..."
 compile_sass = false
 minify_html = true

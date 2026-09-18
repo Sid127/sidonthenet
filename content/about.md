@@ -1,7 +1,7 @@
 +++
 title = "About"
 +++
-Hi, I'm Sid, nice to meet you. I go by a couple more names - Chiku and onebigsucc (a name I've left behind in most places).
+Hi, I'm Sid, nice to meet you.
 
 I'm a `FOSS, security, and privacy enthusiast`, and am semi-competent with `Shell scripting` and `Javascript`, and can manage to cough up some code in C, C++, or virtually any language required given the time to figure out how to apply my logic using the tools the language provides me with. I also enjoy tinkering with things, whether it be software or hardware, and can somewhat identify sources of error in software. 
 
@@ -21,6 +21,6 @@ My other interests/hobbies include, but are not limited to,
 
 ## Oh you wanna reach me elsewhere?
 Well,
-- You could [mail@sidonthe.net](mailto:mail@sidonthe.net)
-- Or you could [@text:sidonthe.net](https://matrix.to/#/@text:sidonthe.net)
+- You could [write me an e-mail](mailto:sidpranjale127@protonmail.com)
+- Or you could [text me on Matrix](https://matrix.to/#/@chiku.wad:tetranode.net)
 - *to share or not to share, that is the question...*
